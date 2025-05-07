@@ -47,26 +47,6 @@ This project sets up a full monitoring environment using *Docker Compose, includ
 
 ---
 
-## ⚙ Prometheus Configuration
-
-The prometheus.yml includes the following scrape jobs:
-
-yaml
-global:
-  scrape_interval: 10s
-
-scrape_configs:
-  - job_name: 'cadvisor'
-    static_configs:
-      - targets: ['cadvisor:8080']
-
-  - job_name: 'postgresql_exporter'
-    static_configs:
-      - targets: ['postgresql_exporter:9187']
-
-
----
-
 ## 📈 Grafana Dashboards
 
 1. Log in to Grafana (admin/admin).
