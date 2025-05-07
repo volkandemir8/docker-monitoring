@@ -65,9 +65,16 @@ This project sets up a full monitoring environment using *Docker Compose, includ
 
 ---
 
-## 🗂 File Structure
+## Notes
 
+- Ensure that the `prometheus.yml` file is correctly configured before starting the containers.
+- Modify the environment variables in the `docker-compose.yml` file as needed for your setup.
 
-├── docker-compose.yml
-├── prometheus.yml
-└── README.md
+---
+
+## Stopping the Containers
+
+To stop and remove the containers, run:
+```bash
+docker-compose down
+``` 
