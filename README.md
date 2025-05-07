@@ -19,22 +19,22 @@ This project sets up a full monitoring environment using *Docker Compose, includ
 
 1. *Clone the repository*:
 
-   bash
+   ```bash
    git clone https://github.com/volkandemir8/docker-monitoring.git
    cd docker-monitoring
-   
+    ```
 
 2. *Start all services*:
 
-   bash
+   ```bash
    docker-compose up -d
-   
+   ```
 
 3. *Verify containers*:
 
-   bash
+   ```bash
    docker ps
-   
+   ```
 
 ---
 
