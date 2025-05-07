@@ -20,8 +20,8 @@ This project sets up a full monitoring environment using *Docker Compose, includ
 1. *Clone the repository*:
 
    bash
-   git clone https://github.com/ysbiyiklioglu/docker-prometheus-grafana-cms.git
-   cd docker-prometheus-grafana-cms
+   git clone https://github.com/volkandemir8/docker-monitoring.git
+   cd docker-monitoring
    
 
 2. *Start all services*:
